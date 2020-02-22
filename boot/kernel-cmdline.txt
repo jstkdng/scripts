@@ -1,0 +1,1 @@
+rw cryptdevice=UUID=ec5b8a85-f9a0-4b0a-8a2a-e8ba426000e0:cryptroot:allow-discards root=/dev/mapper/cryptroot nvidia-drm.modeset=1 acpi_enforce_resources=lax
