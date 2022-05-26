@@ -1,1 +1,1 @@
-rw cryptdevice=UUID=ec5b8a85-f9a0-4b0a-8a2a-e8ba426000e0:cryptroot:allow-discards root=/dev/mapper/cryptroot nvidia-drm.modeset=1 acpi_enforce_resources=lax
+rw root=/dev/vg/arch acpi_enforce_resources=lax random.trust_cpu=1 intel_iommu=on iommu=pt audit=0 quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3 vt.global_cursor_default=0 mitigations=off nowatchdog module_blacklist=iTCO_wdt default_hugepagesz=1G hugepagesz=1G hugepages=16
